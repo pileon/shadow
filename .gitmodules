@@ -1,3 +1,6 @@
 [submodule "server"]
 	path = server
 	url = git@github.com:pileon/shadow-server.git
+[submodule "lib"]
+	path = lib
+	url = git@github.com:pileon/shadow-world.git

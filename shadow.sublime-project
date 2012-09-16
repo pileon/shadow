@@ -1,0 +1,33 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": [
+				".git", "server", "lib"
+				],
+			"file_exclude_patterns": [
+				"shadow.sublime-project", "shadow.sublime-workspace",
+				".gitmodules"
+				]
+		},
+		{
+			"path": "server",
+			"folder_exclude_patterns": [
+				".deps", ".libs", "autom4te.cache"
+				],
+			"file_exclude_patterns": [
+				".git",
+				"aclocal.m4", "compile", "configure",
+				"depcomp", "install-sh", "missing", "config.*",
+				"*.slo", "*.lo", "*.o", "*.so", "*.lai", "*.la", "*.a",
+				"Makefile", "Makefile.in", ".dirstamp", "shadow",
+				"src/host/autoconf.*", "src/host/stamp-h1",
+				"scripts/libtool.m4", "scripts/ltmain.sh",
+				"scripts/ltoptions.m4", "scripts/ltsugar.m4",
+				"scripts/ltversion.m4", "scripts/lt~obsolete.m4",
+				"confdefs.*", "conftest.*", "acinclude.m4", "libtool"
+				]
+		}
+	]
+}

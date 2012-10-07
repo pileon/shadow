@@ -120,34 +120,10 @@
 	"buffers":
 	[
 		{
-			"file": "server/autogen.sh",
-			"settings":
-			{
-				"buffer_size": 3116,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "server/src/shadow.h",
-			"settings":
-			{
-				"buffer_size": 2873,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "server/src/shadow.cpp",
 			"settings":
 			{
-				"buffer_size": 2840,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "server/src/host/host.h",
-			"settings":
-			{
-				"buffer_size": 2884,
+				"buffer_size": 3020,
 				"line_ending": "Unix"
 			}
 		}
@@ -228,13 +204,18 @@
 	},
 	"file_history":
 	[
-		"/home/arrow/Projects/MUD/shadow/server/src/host/posix/main.cpp",
-		"/home/arrow/Projects/MUD/shadow/server/acinclude.m4",
+		"/home/arrow/Projects/MUD/shadow/server/autogen.sh",
 		"/home/arrow/Projects/MUD/shadow/server/configure.ac",
 		"/home/arrow/Projects/MUD/shadow/server/Makefile.am",
 		"/home/arrow/Projects/MUD/shadow/server/src/Makefile.am",
-		"/home/arrow/Projects/MUD/shadow/server/src/host/Makefile.am",
+		"/home/arrow/Projects/MUD/shadow/shadow.sublime-project",
+		"/home/arrow/Projects/MUD/shadow/server/.gitignore",
+		"/home/arrow/Projects/MUD/shadow/server/src/shadow.h",
+		"/home/arrow/Projects/MUD/shadow/server/src/shadow.cpp",
 		"/home/arrow/Projects/MUD/shadow/server/src/host/host.h",
+		"/home/arrow/Projects/MUD/shadow/server/src/host/posix/main.cpp",
+		"/home/arrow/Projects/MUD/shadow/server/acinclude.m4",
+		"/home/arrow/Projects/MUD/shadow/server/src/host/Makefile.am",
 		"/home/arrow/Projects/MUD/shadow/server/src/host/sysdeps.h",
 		"/home/arrow/Projects/MUD/shadow/src/net/telnet.h",
 		"/home/arrow/Projects/MUD/shadow/src/net/private.h",
@@ -256,7 +237,6 @@
 		"/home/arrow/Projects/MUD/ptmud/README.md",
 		"/home/arrow/Projects/MUD/shadow/src/logging.h",
 		"/home/arrow/Projects/MUD/shadow/src/shadow.h",
-		"/home/arrow/Projects/MUD/shadow/shadow.sublime-project",
 		"/home/arrow/Projects/MUD/shadow/src/config.cpp",
 		"/home/arrow/Projects/MUD/shadow/src/host/posix/signal.cpp",
 		"/home/arrow/Projects/MUD/shadow/src/host/host.h",
@@ -351,11 +331,7 @@
 		"/home/arrow/Develop/MUD/old/shadow-99/src/cmd_info.cc",
 		"/home/arrow/Develop/MUD/old/shadow-99/src/interp.h",
 		"/home/arrow/Develop/MUD/old/shadow-99/src/interp.cc",
-		"/home/arrow/Develop/MUD/old/shadow-99/src/object.cc",
-		"/home/arrow/Develop/MUD/old/shadow-99/src/area.cc",
-		"/home/arrow/Develop/MUD/old/shadow-99/src/zone.cc",
-		"/home/arrow/Develop/MUD/old/shadow-99/src/character.cc",
-		"/home/arrow/Develop/MUD/old/shadow-99/src/player.cc"
+		"/home/arrow/Develop/MUD/old/shadow-99/src/object.cc"
 	],
 	"find":
 	{
@@ -414,107 +390,29 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "server/autogen.sh",
-					"settings":
-					{
-						"buffer_size": 3116,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3116,
-								3116
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "server/src/shadow.h",
-					"settings":
-					{
-						"buffer_size": 2873,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2873,
-								2873
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "server/src/shadow.cpp",
 					"settings":
 					{
-						"buffer_size": 2840,
+						"buffer_size": 3020,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2840,
-								2840
+								2079,
+								2079
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "server/src/host/host.h",
-					"settings":
-					{
-						"buffer_size": 2884,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2884,
-								2884
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

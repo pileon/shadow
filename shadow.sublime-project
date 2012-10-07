@@ -29,5 +29,22 @@
 				"confdefs.*", "conftest.*", "acinclude.m4", "libtool"
 				]
 		}
+	],
+
+	"build_systems":
+	[
+		{
+			"name": "Build server",
+			"working_dir": "${project_path}/server",
+			"cmd": ["make", "-j6", "-C", "${project_path}/server"],
+
+			"variants":
+			[
+				{
+					"name": "Run",
+					"cmd": ["${project_path}/server/src/shadow"]
+				}
+			]
+		}
 	]
 }
